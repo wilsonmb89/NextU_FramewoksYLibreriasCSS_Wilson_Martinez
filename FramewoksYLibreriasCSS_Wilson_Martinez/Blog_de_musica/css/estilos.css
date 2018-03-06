@@ -1,0 +1,87 @@
+.imagenFondo {
+    background: url(../media/img/imagenFondo.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.img-logo{
+	width: 40%;
+}
+
+#rowHeader, #rowNavigation{
+	border-bottom: 1px solid black;
+}
+
+.ppalContainer{
+	background-color: white;
+	opacity: 0.95;
+	margin-top: 2%;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+.offsetVertical{
+	height: 70px;
+}
+
+.img-red-social{
+	display: inline !important;
+	float: right;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.menuRock > li > a{
+	color: black !important;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: #a0a0a0 !important;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background-color: black !important;
+	color: white !important;
+}
+
+.figure-content{
+	margin-top: 30%;
+}
+
+.icon-large{
+	font-size: 3em;
+}
+
+.bodyContent{
+	background-color: #a0a0a0;
+	margin: 10px 0px;
+	padding: 5px;
+	border: 1px solid #a0a0a0;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #a0a0a0;
+}
+
+@media (max-width: 768px) {
+	#red-social-container{
+		text-align: center;
+	}
+	
+	.img-red-social{
+		width: 40%;
+		float: none;
+	}
+	
+	.img-logo{
+		margin: 0 auto;
+	}
+	
+	.offsetVertical{
+		height: 0px;
+	}
+	
+	.figure-content{
+		margin-top: 0;
+	}
+}
